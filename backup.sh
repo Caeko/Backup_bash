@@ -6,8 +6,8 @@ echo "Write by Caeko"
 echo "------------------------------------------------------------------"
 
 date=$(date +%Y-%m-%d)
-file_backup=PathOfYourFileYouWantBackup/
-dest=DestinationPathYouWantToHaveYourBackup/
+file_backup=
+dest=
 filename=back-${file_backup//\//_}-${date}.tar.gz
 
 if [ -f ${filename} ]; then
